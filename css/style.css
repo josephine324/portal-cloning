@@ -574,6 +574,11 @@ video {
   top: 50%;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-\[\.7em\] {
   margin-bottom: .7em;
 }
@@ -582,24 +587,104 @@ video {
   margin-bottom: 2em;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .mt-\[100px\] {
   margin-top: 100px;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-\[80vh\] {
   height: 80vh;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .w-10 {
   width: 2.5rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-96 {
@@ -610,8 +695,20 @@ video {
   width: 30%;
 }
 
+.w-\[50rem\] {
+  width: 50rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .flex-col {
@@ -626,6 +723,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -634,12 +735,38 @@ video {
   justify-content: space-evenly;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-11 {
+  gap: 2.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
 
 .gap-8 {
   gap: 2rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-customGreen {
+  --tw-border-opacity: 1;
+  border-color: rgb(161 138 77 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#a18a4d\] {
@@ -656,6 +783,26 @@ video {
   background-color: rgb(213 213 213 / var(--tw-bg-opacity, 1));
 }
 
+.bg-customGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(161 138 77 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-customGrey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity, 1));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -663,6 +810,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-8 {
@@ -679,6 +830,18 @@ video {
   padding-bottom: 2px;
 }
 
+.pt-\[80px\] {
+  padding-top: 80px;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.font-lato {
+  font-family: Lato, sans-serif;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -688,13 +851,43 @@ video {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
 .text-\[1\.6em\] {
   font-size: 1.6em;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[22\.4px\] {
+  font-size: 22.4px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[51\.2px\] {
+  font-size: 51.2px;
 }
 
 .font-\[400\] {
@@ -715,6 +908,26 @@ video {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-\[1\.5\] {
+  line-height: 1.5;
+}
+
+.leading-loose {
+  line-height: 2;
 }
 
 .text-\[\#ccc\] {
@@ -739,4 +952,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-customGreen:hover {
+  --tw-text-opacity: 1;
+  color: rgb(161 138 77 / var(--tw-text-opacity, 1));
 }
