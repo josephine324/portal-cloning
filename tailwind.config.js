@@ -8,6 +8,7 @@ module.exports = {
         customBlack: "#333333E6",
         customGreen: "#a18a4d",
         customGrey: "#F2F2F2",
+        customColor:"#A18A4D",
       },
       spacing: {
         '72': '18rem', // 288px
